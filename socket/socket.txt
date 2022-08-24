@@ -1,0 +1,9 @@
+#Socket Server side
+use io = to send event to client
+use io.emit = to send to every client #emit takes (event_name, event_function or message)
+use io.to(socketId).emit = to send to a specific client 
+use socket.on = to take event from client
+
+#Client side
+use socket.emit = to send an event to the server 
+use socket.on = to receive or take an event from server 
